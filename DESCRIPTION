@@ -1,0 +1,10 @@
+Package: intercept0
+Title: Linear Model with Intercept forced to 0
+Version: 0.0.0.9000
+Authors@R: 
+    person("JK", "Kim", , "kimjk@agronomy4future.com", role = c("aut", "cre"))
+Description: This package calculates the correct R² when the intercept in a linear regression is forced to 0
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
