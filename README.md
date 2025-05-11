@@ -36,14 +36,7 @@ df=data.frame (x,y)
 model= intercept0(grain_weight ~ grain_area, data=df)
 summary(model)
 
-
 Call:
-lm(formula = update(formula, . ~ . - 1), data = data)
-
-Residuals:
-    Min      1Q  Median      3Q     Max 
--5.2735 -1.7092  0.3563  2.1582  9.2922 
-
 Coefficients:
   Estimate Std. Error t value Pr(>|t|)    
 x  0.92574    0.01476   62.72   <2e-16 ***
